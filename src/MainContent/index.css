@@ -1,0 +1,7 @@
+.main-content {
+  flex: 1;
+  background-color: #FFF9F1;
+  display: flex;
+  position: relative;
+  padding: 3rem;
+}

@@ -1,0 +1,76 @@
+/* Header styles */
+.header {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #4c4d4f;
+  padding: 1.2rem 1.25rem; /* 10px 20px converted to rem */
+}
+
+.sidebar-toggle {
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.25rem; /* 20px converted to rem */
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.4rem;
+}
+
+.brand h1 {
+  color: #4c4d4f;
+  font-family: auto;
+  letter-spacing: 0.5rem;
+  line-height: 0.8;
+  margin: 0;
+}
+
+.brand span {
+  margin: 0;
+  color: #4c4d4fb0;
+  font-size: 0.75rem;
+  letter-spacing: 0.15rem;
+}
+
+.right {
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.notification-bell {
+  margin-right: 1.25rem;
+  font-size: 1.25rem;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img {
+  width: 1.875rem;
+  height: 1.875rem;
+  border: 1px solid #a0a0a0;
+  border-radius: 50%;
+  margin-right: 0.625rem;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+/* Styles for large screens (desktop) */
+@media screen and (min-width: 4rem) {
+  /* 64px converted to rem */
+  .left {
+    display: none;
+  }
+}
